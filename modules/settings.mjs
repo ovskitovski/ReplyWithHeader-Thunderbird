@@ -19,7 +19,11 @@ export const headerLabelSeqStyleSettings = {
     0: ['subject', 'date', 'from', 'to', 'cc', 'reply-to'], // Thunderbird
     1: ['from', 'date', 'to', 'cc', 'reply-to', 'subject'], // Outlook
     2: ['from', 'date', 'subject'],             // Simple
-    3: ['from', 'to', 'cc', 'date', 'reply-to', 'subject']  // Lookout
+    3: ['from', 'to', 'cc', 'date', 'reply-to', 'subject'],  // Lookout
+    4: ['date', 'from', 'to', 'cc', 'reply-to'], // Thunderbird
+    5: ['from', 'date', 'to', 'cc', 'reply-to'], // Outlook
+    6: ['from', 'date'],             // Simple
+    7: ['from', 'to', 'cc', 'date', 'reply-to']  // Lookout
 }
 export const homepageUrl = 'http://myjeeva.com/replywithheader-mozilla';
 export const reviewsPageUrl = 'https://addons.mozilla.org/en-US/thunderbird/addon/replywithheader/';
